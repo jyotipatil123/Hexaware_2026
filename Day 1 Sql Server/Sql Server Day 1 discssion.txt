@@ -1,0 +1,16 @@
+Day 1 discussion : 
+
+=========================================================================================================
+
+Sql server Day 1    March 16 2026
+
+
+installing the sql server 
+sql server management studio 2019 / 2022 --windows / mac 
+
+Sql server : 
+1. Database engine 
+2. Analysis service SSAS
+3. Reporting service SSRS
+4. Integration service SSIS
+5. Azure 

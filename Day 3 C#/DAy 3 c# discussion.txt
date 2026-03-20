@@ -1,0 +1,167 @@
+Day 3 discussion 
+
+c# day 1 18_3_2026
+===========================================================
+
+.net versions 
+ 1.0,1.1, 2.0, 3.0, 3.5, 4.0, 4.5, 4.7, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0
+
+
+c# versions 
+1.0......14.0 
+
+
+visual studio 2022.........
+vs code
+
+namespace 
+  collection of classes
+
+class 
+   class is a collection of member variables and member functions
+
+class class_name
+{
+   int a;
+
+   public void display()
+   {
+      Console.WriteLine("welcome...");
+   }
+}
+
+
+
+Data types : 
+int, char, string, double, float, decimal, long int..........
+
+value type
+reference types 
+
+
+console.write
+console.writeline
+--------------------
+console.read
+console.readline
+
+operators : 
+1. arithemetic operators + - * /(quotient)   %(remainder)
+2. logical operators && ||  !
+3. relational operators < > <= >= <> !=
+4. assignment operator =
+5. comparison operator ==
+6. ternary operator ? :
+ 
+variables
+storage
+conditional statements : 
+if, switch
+---------------------------------------------------------------
+
+arrays in c#
+
+similar type of datas
+
+types : 
+1. single dimensional arrays
+2. double dimensional arrays
+3. multi dimensional arrays
+4. jagged arrays
+
+rows   0 1 2 3 4 ......columns
+0      1,2,3,4,5..........
+
+matrix :   2x2
+  0  1
+0 1  2
+1 3  4
+
+  (0,0)  (0,1)
+  (1,0)  (1,1) 
+
+
+addtion of matrices : 
+
+ 1   2    +   1   1   =  2   3
+ 3   4        1   1      4   5
+
+
+mulitplication of matrices : 
+   2 x 2
+       2 x 2 
+ 1  2   x  1  1   =  (1x1+2x1)   (1x1+2x1)
+ 3  4      1  1      (3x1+4x1)   (3x1+4x1)
+
+jagged arrays :
+  array inside an array
+
+each and every element of an array is a single dimensional array.
+
+OOPS 
+------
+OOP
+OOD
+OOA
+
+class , objects
+functions
+
+4 pillars : 
+1. inheritance
+     parents -child 
+       parent class -- child class
+         types :  single level, multi level, multiple xxx, hierarchical, hybrid 
+2. polymorphism
+3. abstraction
+4. encapsulation
+
+methods : 
+1. public functions with return statement
+2. public static functions
+3. static functions 
+
+
+loops : 
+for
+while
+do_while
+foreach
+
+variables
+constants
+value types and reference types 
+
+
+collection : 
+array --similar type of datas
+
+
+collection classes : 
+1. stack
+       LIFO  last in first out 
+
+
+2. queue
+3. sortedlist
+4. hashtable
+5. arraylist
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
