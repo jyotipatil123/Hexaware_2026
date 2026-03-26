@@ -1,0 +1,42 @@
+Day 2 Asp.net MVC Discussion
+
+
+Asp.net Core MVC ??
+
+Model ?
+Controller ?
+Views ?
+
+
+Entity Framework / Entity framework core
+
+1. code first approach
+     code---generating the DB
+2. model first approach
+     designing the model - and building the classses
+3. database first approach
+      DB-- generating the classes
+
+Ado.net 
+  Activex Data Object.net
+
+EF   -------------------------------------------> connect to the DB
+
+Html helpers 
+   @Html.Textbox,
+        .label,
+        ........
+
+tag helpers
+   asp-for
+   asp-action
+   asp-controller.........
+
+
+
+
+
+
+
+
+
