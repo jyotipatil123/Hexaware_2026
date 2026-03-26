@@ -1,0 +1,95 @@
+Day 1 discussion
+
+Asp.net Core MVC
+
+
+.net framework
+.net standard
+    Asp.net application 
+
+.net core 
+
+    Asp.net Core MVC
+    Asp.net Core Razor pages 
+
+Exercises : 
+
+create employee controller
+        create pages : employee details
+                       employee project details
+
+MVC
+  Model
+     classes  
+  View
+      presentation layer
+  controller 
+        business logic
+
+to pass the datas from controller to views : 
+1. tempdata
+         tempdata["result"]=result
+2. viewdata
+         viewdata["result"] =result
+3. viewbag
+         dynamic
+         ViewBag.res= result
+
+
+
+rendering through route : 
+
+Browser Request
+      ↓
+Middleware Pipeline
+      ↓
+Routing Middleware
+      ↓
+Controller Action
+      ↓
+Model Binding
+      ↓
+Business Logic
+      ↓
+View Rendering (Razor)
+      ↓
+HTML Response
+      ↓
+Browser
+
+
+
+Types of Routing in ASP.NET Core
+
+1. Conventional Routing (Default)
+{controller}/{action}/{id?}
+
+
+2. Attribute Routing
+
+[Route("product/details/{id}")]
+public IActionResult Details(int id)
+{
+    return View();
+}
+===========================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

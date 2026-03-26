@@ -1,0 +1,20 @@
+Nunit and MOQ framework
+
+Day 6 discussion
+
+
+class library
+   .... build ....  .dll/.exe 
+
+console application / nunit test project application
+  write the logic -- refer this in the application
+
+dividebyzero...
+calculator--addition, subtraction, multiplication, division......
+
+==================================================================
+Exercise  :
+
+WAP to set the a number. 
+check whether the number is +ve, -ve or zero.
+===================================================================

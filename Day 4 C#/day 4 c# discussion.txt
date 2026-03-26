@@ -1,0 +1,137 @@
+Day 4 c# discussion
+
+abstract classes
+
+interfaces 
+   -- supports multiple inheritance
+   -- contract between the classes and methods
+  interaces objects can not be created
+
+types of interfaces : 
+1. internal
+        interface name can be excluded
+2. external 
+        interface name is included 
+
+syntax : 
+
+interface i1
+{
+   ......   // collection pure abstract functions 
+}
+
+we have only function signatures or function names...no function body 
+
+==========================================
+Exercises : 
+1. create a customer class with the properties
+   custid , custname, custsalary
+
+store the values and display them. 
+===========================================
+
+Exception handling in c#
+
+exception ??
+code -- errors -- logical errors, run time errors, design time errors..........
+try...catch...finally
+
+types : 
+1. system defined exceptions
+2. user defined exceptions
+=====================================================================================
+Exercises : 
+1. create a program for user defined exceptions. 
+
+  bank -- balance === balance is <0 ---throw custom exception 
+                                 > 0 display the balance 
+
+==================================================================================
+
+file handling in c#
+
+file managing -- reading from the file, writing in to the file, move, copy, delete......
+
+directory, drive.......
+
+System.IO namespace. 
+
+classes : 
+  File, Directory, Drive.........
+
+classes : 
+   FileInfo
+   DirectoryInfo
+   DriveInfo
+
+   read -- TextReader , StreamReader
+   write -- TextWriter, StreamWriter
+
+Exercies :
+Create a file hexaware1.txt. 
+add some content. 
+read the file.
+display the file. 
+========================================================================
+
+Generics in  C#
+<>  angle brackets 
+
+class<T>  T generic operator ==> varieties of data
+
+
+types : 
+generic classes
+generic methods
+generic delegates..........
+
+Assemby : 
+  building block of .net 
+  .dll
+  .exe
+
+types : 
+1. private assembly  : only one application 
+2. shared assembly   : shared...all the other applciations can access it
+          global assembly cache 
+          GAC ---put the private assembly inside this GAC
+          utitlity given by .net 
+          gacutil command .....
+
+3. satellite assembly
+
+Lamda expressions
+   anonymous methods
+   LINQ --language integrated query 
+
+no function name 
+x=>x*x
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
