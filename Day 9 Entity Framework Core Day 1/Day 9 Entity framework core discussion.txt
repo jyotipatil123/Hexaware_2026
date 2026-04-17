@@ -1,0 +1,186 @@
+Day 9
+
+entity framework core 
+
+architecture 
+
+EF is ORM object relational mapper 
+enable .net applications work with the DB using .net objects 
+
+
+Entity framework architecture : 
+
+1. entity data model 
+2. linq to entities
+3. entity sql
+.............
+
+Context class :
+  allows us to query, insert, delete, update......Crud operations .net classes 
+
+System.Data.Entity.Dbcontext;   namespace 
+
+
+   context class : DBContext 
+
+Includes these below packages : 
+
+dotnet add  package Microsoft.EntityFrameworkCore
+dotnet add  package Microsoft.EntityFrameworkCore.SqlServer
+dotnet add  package Microsoft.EntityFrameworkCore.Tools
+
+.net 
+   async 
+   await 
+
+
+synchronous   
+asynchrous 
+   threads 
+
+student class /entity
+dbcontext 
+appsettings.json  : set the connectionstring
+create studentservice class 
+program.cs : inject student service
+
+migration : initial state
+            update 
+
+Types of entities : 
+
+regular entities 
+   Example : 
+               public class employee
+               {
+                    public int id{get;set}
+                    public string name{get;set;}= default;
+               }
+==================================================================================
+owned entity types :
+
+company   owner
+      employee
+
+customer  owner
+      order 
+====================================================================================
+
+keyless entity types 
+   tables which don't have keys 
+
+.............HasKey()
+ .......... HasNotKey()
+
+student
+       name
+       address
+       phone 
+=========================================================================================
+backing field entity types 
+  entities where mapping to a private field instead of the public property. 
+
+public class product
+{
+   private string name;
+   public string Name=> _name;
+}
+
+=========================================================================================
+Table -splitting entities
+   multiple entity types which shares the same table
+
+user + address ----> one table 
+========================================================================
+Many to many join entities 
+M:M
+
+student
+   many 
+courses
+   many 
+
+
+3 approaches in Entity framework :
+1. code first
+2. database first
+3. model first 
+
+
+Code first approach : 
+
+install the packages 
+
+define a class 
+   Product
+         id, name, price, stock 
+
+define a dbcontext class
+      
+=================================================
+database first approach
+
+db========> classes 
+==================================================
+Model first approach 
+ 
+creating number of classes
+adding the connection
+adding the dependency in Program.cs
+database miogrations
+=====================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
